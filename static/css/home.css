@@ -1,0 +1,62 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero section styling */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #eaf7f2;
+    color: #4a645f;
+    border-bottom: 2px solid #ddd;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Licensing Information Section */
+.license {
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.license h3 {
+    font-size: 28px;
+    color: #4a645f;
+    margin-bottom: 20px;
+}
+
+.license p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.license a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.license a:hover {
+    text-decoration: underline;
+}

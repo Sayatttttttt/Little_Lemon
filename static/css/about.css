@@ -1,0 +1,67 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* About section styling */
+.about {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #4a645f;
+}
+
+.about p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Find Us Section */
+.map-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.map-container iframe {
+    max-width: 100%;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    .about h2 {
+        font-size: 28px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .map-container iframe {
+        height: 300px;
+    }
+}
